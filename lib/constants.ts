@@ -25,6 +25,8 @@ export const ENTRY_FEE_OPTIONS = [
   { label: '0.01 ETH', value: '0.01' },
 ];
 
+import { DrawStatus } from './types';
+
 export const SAMPLE_DRAWS = [
   {
     drawId: 'draw_1',
@@ -33,7 +35,7 @@ export const SAMPLE_DRAWS = [
     description: 'Win 0.1 ETH in our weekly community draw!',
     startTime: new Date(Date.now() - 2 * 60 * 60 * 1000), // 2 hours ago
     endTime: new Date(Date.now() + 22 * 60 * 60 * 1000), // 22 hours from now
-    status: 'Active' as const,
+    status: DrawStatus.ACTIVE,
     prizeDetails: {
       prizeName: '0.1 ETH Prize',
       prizeType: 'ETH' as const,
@@ -54,7 +56,7 @@ export const SAMPLE_DRAWS = [
     description: 'Rare NFT from the FairPlay Genesis collection',
     startTime: new Date(Date.now() + 60 * 60 * 1000), // 1 hour from now
     endTime: new Date(Date.now() + 48 * 60 * 60 * 1000), // 48 hours from now
-    status: 'Pending' as const,
+    status: DrawStatus.PENDING,
     prizeDetails: {
       prizeName: 'FairPlay Genesis #001',
       prizeType: 'NFT' as const,
