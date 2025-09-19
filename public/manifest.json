@@ -20,7 +20,13 @@
       "https://fairplay-draws.com/screenshot3.png"
     ],
     "primaryCategory": "social",
-    "tags": ["draws", "blockchain", "fairness", "transparency", "base"],
+    "tags": [
+      "draws",
+      "blockchain",
+      "fairness",
+      "transparency",
+      "base"
+    ],
     "heroImageUrl": "https://fairplay-draws.com/hero.png",
     "tagline": "Blockchain-verified fair draws with transparent data trails",
     "ogTitle": "FairPlay Draws - Blockchain-Verified Fair Draws",
