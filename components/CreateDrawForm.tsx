@@ -24,7 +24,7 @@ export function CreateDrawForm({ onSubmit, onCancel }: CreateDrawFormProps) {
     eligibilityCriteria: '',
   });
 
-  const [errors, setErrors] = useState<Partial<CreateDrawFormData>>({});
+  const [errors, setErrors] = useState<Partial<Record<keyof CreateDrawFormData, string>>>({});
 
   const handleChange = (field: keyof CreateDrawFormData, value: string | number) => {
     setFormData(prev => ({ ...prev, [field]: value }));
@@ -34,7 +34,7 @@ export function CreateDrawForm({ onSubmit, onCancel }: CreateDrawFormProps) {
   };
 
   const validateForm = (): boolean => {
-    const newErrors: Partial<CreateDrawFormData> = {};
+    const newErrors: Partial<Record<keyof CreateDrawFormData, string>> = {};
 
     if (!formData.title.trim()) newErrors.title = 'Title is required';
     if (!formData.description.trim()) newErrors.description = 'Description is required';
