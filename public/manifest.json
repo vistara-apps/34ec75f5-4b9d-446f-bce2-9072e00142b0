@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjkxNTIsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgwMmVmNzkwRGQ3OTkzQTM1ZkQ4NDdDMDUzRURkQUU5NDBEMDU1NTk2In0",
+    "payload": "eyJkb21haW4iOiJmYWlycGxheS1kcmF3cy5jb20ifQ",
+    "signature": "MHgxMGQwZGU4ZGYwZDUwZTdmMGIxN2YxMTU2NDI1MjRmZTY0MTUyZGU4ZGU1MWU0MThiYjU4ZjVmZmQxYjRjNDBiNGVlZTRhNDcwNmVmNjhlMzQ0ZGQ5MDBkYmQyMmNlMmVlZGY5ZGQ0N2JlNWRmNzMwYzUxNjE4OWVjZDJjY2Y0MDFj"
+  },
+  "frame": {
+    "version": "1",
+    "name": "FairPlay Draws",
+    "homeUrl": "https://fairplay-draws.com",
+    "iconUrl": "https://fairplay-draws.com/icon.png",
+    "splashImageUrl": "https://fairplay-draws.com/splash.png",
+    "splashBackgroundColor": "#4c6ef5",
+    "webhookUrl": "https://fairplay-draws.com/api/webhook",
+    "subtitle": "Blockchain-verified fair draws",
+    "description": "Create and participate in transparent, provably fair draws with complete data traceability on the blockchain.",
+    "screenshotUrls": [
+      "https://fairplay-draws.com/screenshot1.png",
+      "https://fairplay-draws.com/screenshot2.png",
+      "https://fairplay-draws.com/screenshot3.png"
+    ],
+    "primaryCategory": "social",
+    "tags": ["draws", "blockchain", "fairness", "transparency", "base"],
+    "heroImageUrl": "https://fairplay-draws.com/hero.png",
+    "tagline": "Blockchain-verified fair draws with transparent data trails",
+    "ogTitle": "FairPlay Draws - Blockchain-Verified Fair Draws",
+    "ogDescription": "Create and participate in transparent, provably fair draws with complete data traceability on the blockchain.",
+    "ogImageUrl": "https://fairplay-draws.com/og-image.png"
+  }
+}
